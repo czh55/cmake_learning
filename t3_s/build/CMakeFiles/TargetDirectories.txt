@@ -1,0 +1,6 @@
+C:/Users/czh/source/repos/test1/t3_s/build/CMakeFiles/INSTALL.dir
+C:/Users/czh/source/repos/test1/t3_s/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/czh/source/repos/test1/t3_s/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/czh/source/repos/test1/t3_s/build/lib/CMakeFiles/hello.dir
+C:/Users/czh/source/repos/test1/t3_s/build/lib/CMakeFiles/hello_static.dir
+C:/Users/czh/source/repos/test1/t3_s/build/lib/CMakeFiles/INSTALL.dir

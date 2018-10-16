@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\czh\source\repos\test1\t1\main.c(4): warning C4013: “system”未定义；假设外部返回 int
+  hello.vcxproj -> C:\Users\czh\source\repos\test1\t1\Debug\hello.exe
+  hello.vcxproj -> C:/Users/czh/source/repos/test1/t1/Debug/hello.pdb (Full PDB)

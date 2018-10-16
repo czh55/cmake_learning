@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/czh/source/repos/test1/t3/lib/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/czh/source/repos/test1/t3/build/lib/CMakeFiles/generate.stamp is up-to-date.
+  hello.c
+  hello.vcxproj -> C:\Users\czh\source\repos\test1\t3\build\lib\Debug\hello.dll
+  hello.vcxproj -> C:/Users/czh/source/repos/test1/t3/build/lib/Debug/hello.pdb (Full PDB)

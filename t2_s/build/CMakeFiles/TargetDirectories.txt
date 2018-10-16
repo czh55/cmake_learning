@@ -1,0 +1,5 @@
+C:/Users/czh/source/repos/test1/t2_s/build/CMakeFiles/INSTALL.dir
+C:/Users/czh/source/repos/test1/t2_s/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/czh/source/repos/test1/t2_s/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/czh/source/repos/test1/t2_s/build/src/CMakeFiles/hello.dir
+C:/Users/czh/source/repos/test1/t2_s/build/src/CMakeFiles/INSTALL.dir

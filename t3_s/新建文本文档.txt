@@ -1,0 +1,2 @@
+编译指令：
+C:\Users\czh\source\repos\test1\t3_s\build>cmake -DCMAKE_INSTALL_PREFIX=../tmp/usr ..

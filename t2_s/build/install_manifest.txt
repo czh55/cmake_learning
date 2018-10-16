@@ -1,0 +1,4 @@
+C:/Users/czh/source/repos/test1/t2_s/tmp/t2/usr/share/doc/cmake/t2/COPYRIGHT
+C:/Users/czh/source/repos/test1/t2_s/tmp/t2/usr/share/doc/cmake/t2/README
+C:/Users/czh/source/repos/test1/t2_s/tmp/t2/usr/bin/runhello.sh
+C:/Users/czh/source/repos/test1/t2_s/tmp/t2/usr/share/doc/cmake/t2/hello.txt

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/czh/source/repos/test1/t4/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/czh/source/repos/test1/t4/build/src/CMakeFiles/generate.stamp is up-to-date.
+  main.c
+  main.vcxproj -> C:\Users\czh\source\repos\test1\t4\build\src\Debug\main.exe
+  main.vcxproj -> C:/Users/czh/source/repos/test1/t4/build/src/Debug/main.pdb (Full PDB)

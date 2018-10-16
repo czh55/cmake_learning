@@ -1,0 +1,12 @@
+参考教程：
+https://www.kancloud.cn/itfanr/cmake-practice/82983
+
+目录结构说明：
+t1:最简单的内部构建
+t2:src文件夹方源码 + build文件夹外部构建
+t2_s:包含安装指令install + 完善的文档结构 + 设置二进制文件的输出目录
+t3:动态库构建
+t3_s:静态库构建 + 静态库构建 同时生成 结果路径：build\lib\Debug + 安装
+t4:使用外部共享库和头文件，引用t3_s的安装结果路径：C:\Users\czh\source\repos\test1\t3_s\tmp
+t5:我电脑没有CURL库，所以会error： CURL library not found
+t6:我这里配置不成功。src中的find_package之后，无法找到变量HELLO_FOUND，从而无法加载src中的main.c程序

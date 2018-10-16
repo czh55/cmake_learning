@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/czh/source/repos/test1/t2_s/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/czh/source/repos/test1/t2_s/build/src/CMakeFiles/generate.stamp is up-to-date.
+  main.c
+C:\Users\czh\source\repos\test1\t2_s\src\main.c(4): warning C4013: “system”未定义；假设外部返回 int
+  hello.vcxproj -> C:\Users\czh\source\repos\test1\t2_s\build\bin\Debug\hello.exe
+  hello.vcxproj -> C:/Users/czh/source/repos/test1/t2_s/build/bin/Debug/hello.pdb (Full PDB)

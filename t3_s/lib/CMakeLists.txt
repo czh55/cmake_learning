@@ -1,0 +1,20 @@
+SET(LIBHELLO_SRC hello.c)
+ADD_LIBRARY(hello SHARED ${LIBHELLO_SRC})
+ADD_LIBRARY(hello_static STATIC ${LIBHELLO_SRC})
+
+#https://blog.csdn.net/lsjseu/article/details/70496089
+#解决target 名称是唯一的问题
+SET_TARGET_PROPERTIES(hello_static PROPERTIES OUTPUT_NAME "hello") 
+GET_TARGET_PROPERTY(OUTPUT_VALUE hello_static OUTPUT_NAME) 
+MESSAGE(STATUS "This is the hello_static OUTPUT_NAME:"${OUTPUT_VALUE})
+
+#cmake 在构建一个新的target 时，会尝试清理掉其他使用这个名字的库
+SET_TARGET_PROPERTIES(hello PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+SET_TARGET_PROPERTIES(hello_static PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+
+#动态库版本号按照规则，动态库是应该包含一个版本号的
+SET_TARGET_PROPERTIES(hello PROPERTIES VERSION 1.2 SOVERSION 1)
+
+#这里只是相对路径
+INSTALL(TARGETS hello hello_static LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
+INSTALL(FILES hello.h DESTINATION include/hello)
